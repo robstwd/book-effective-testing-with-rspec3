@@ -23,7 +23,7 @@ jobs:
       run: gem install rspec --no-document 
   
   rspec_chapter_01:
-    - needs: rspec_install
+    needs: rspec_install
 
     steps:
 
