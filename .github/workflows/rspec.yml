@@ -25,6 +25,8 @@ jobs:
   rspec_chapter_01:
     needs: rspec_install
 
+    runs-on: ubuntu-latest
+
     steps:
 
     - continue-on-error: true
