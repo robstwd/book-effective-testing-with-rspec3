@@ -23,4 +23,4 @@ jobs:
     - name: Run tests chapter 01
       run: |
         cd chapter_01/01
-        bundle exec rspec
+        rspec
