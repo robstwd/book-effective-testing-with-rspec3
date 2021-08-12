@@ -20,7 +20,37 @@ jobs:
     - name: Install rspec
       run: gem install rspec --no-document 
 
-    - name: Run tests chapter 01
+    - name: Run tests chapter 01 - 01
       run: |
         cd chapter_01/01
+        rspec
+    
+    - name: Run tests chapter 01 - 03
+      run: |
+        cd ../03
+        rspec
+    
+    - name: Run tests chapter 01 - 04
+      run: |
+        cd ../04
+        rspec
+    
+    - name: Run tests chapter 01 - 05
+      run: |
+        cd ../05
+        rspec
+    
+    - name: Run tests chapter 01 - 06
+      run: |
+        cd ../06
+        rspec
+    
+    - name: Run tests chapter 01 - 07
+      run: |
+        cd ../07
+        rspec
+    
+    - name: Run tests chapter 01 - 09
+      run: |
+        cd ../09
         rspec
