@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  get rspec:
+  rspec:
 
     runs-on: ubuntu-latest
 
