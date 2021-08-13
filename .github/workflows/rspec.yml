@@ -12,8 +12,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    continue-on-error: true
-    
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
