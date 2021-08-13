@@ -70,10 +70,13 @@ jobs:
       run: |
         cd chapter_02/01
         rspec -f doc
+        # run just the examples (-e) that include the term 'milk'
+        rspec -f d -e milk
     
     - name: Run tests chapter 02 - 03
       if: ${{ always() }}
       run: |
         cd chapter_02/03
+        # runs tests and lists the 2 slowest examples
         rspec --profile 2
 
