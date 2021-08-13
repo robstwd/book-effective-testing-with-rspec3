@@ -21,4 +21,4 @@ jobs:
       run: gem install rspec --no-document 
   
     - name: list gems
-      run gem list
+      run: gem list
