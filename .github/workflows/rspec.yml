@@ -26,45 +26,42 @@ jobs:
     - name: Run tests chapter 01 - 01
       if: ${{ always() }}
       run: |
-        pwd
         cd chapter_01/01
-        pwd
         rspec
     
     - name: Run tests chapter 01 - 03
       if: ${{ always() }}
       run: |
-        pwd
         cd chapter_01/03
         rspec
     
     - name: Run tests chapter 01 - 04
       if: ${{ always() }}
       run: |
-        cd ../04
+        cd chapter_01/04
         rspec
     
     - name: Run tests chapter 01 - 05
       if: ${{ always() }}
       run: |
-        cd ../05
+        cd chapter_01/05
         rspec
     
     - name: Run tests chapter 01 - 06
       if: ${{ always() }}
       run: |
-        cd ../06
+        cd chapter_01/06
         rspec
     
     - name: Run tests chapter 01 - 07
       if: ${{ always() }}
       run: |
-        cd ../07
+        cd chapter_01/07
         rspec
     
     - name: Run tests chapter 01 - 09
       if: ${{ always() }}
       run: |
-        cd ../09
+        cd chapter_01/09
         rspec
 
