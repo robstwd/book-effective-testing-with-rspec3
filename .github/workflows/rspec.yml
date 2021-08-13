@@ -25,13 +25,13 @@ jobs:
 
     - name: Run tests chapter 01 - 01
       run: |
+        continue-on-error: true
         cd chapter_01/01
         rspec
-        continue-on-error: true
     
     - name: Run tests chapter 01 - 03
       run: |
+        continue-on-error: true
         cd ../03
         rspec
-        continue-on-error: true
 
