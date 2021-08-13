@@ -70,4 +70,10 @@ jobs:
       run: |
         cd chapter_02/01
         rspec -f doc
+    
+    - name: Run tests chapter 02 - 03
+      if: ${{ always() }}
+      run: |
+        cd chapter_02/03
+        rspec --profile 2
 
