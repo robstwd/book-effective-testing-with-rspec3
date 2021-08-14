@@ -111,3 +111,9 @@ jobs:
       run: |
         cd chapter_02/10
         rspec -f d
+    
+    - name: Run tests chapter 02 - 11
+      if: ${{ always() }}
+      run: |
+        cd chapter_02/11
+        rspec -f d
