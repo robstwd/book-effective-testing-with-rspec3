@@ -72,6 +72,8 @@ jobs:
         rspec -f doc
         # run just the examples (-e) that include the term 'milk'
         rspec -f d -e milk
+        # run the specifis example on a given line number
+        rspec ./spec/coffee_spec.rb:24
     
     - name: Run tests chapter 02 - 03
       if: ${{ always() }}
