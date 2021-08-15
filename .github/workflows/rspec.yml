@@ -128,4 +128,5 @@ jobs:
       if: ${{ always() }}
       run: |
         cd chapter_04/01/expense_tracker
+        bundle install
         bundle exec rspec -f d
