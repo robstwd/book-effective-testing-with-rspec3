@@ -137,3 +137,10 @@ jobs:
         cd chapter_04/02/expense_tracker
         bundle install
         bundle exec rspec -f d
+    
+    - name: Run tests chapter 04 - 03
+      if: ${{ always() }}
+      run: |
+        cd chapter_04/03/expense_tracker
+        bundle install
+        bundle exec rspec -f d
