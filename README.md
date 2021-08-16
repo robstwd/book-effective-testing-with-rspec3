@@ -18,7 +18,7 @@ https://pragprog.com/titles/rspec3/effective-testing-with-rspec-3/
 - Rack test examples: https://github.com/rack/rack-test#examples
 - sliming tests: https://www.youtube.com/watch?v=PhiXo5CWjYU
 - Martin Fowler, Unit tests: https://martinfowler.com/bliki/UnitTest.html
-
+- Martin Fowler, Test Doubles: https://martinfowler.com/bliki/TestDouble.html
 
 ### Gems
 - coderay: https://github.com/rubychan/coderay
