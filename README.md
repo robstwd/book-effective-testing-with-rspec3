@@ -17,6 +17,7 @@ https://pragprog.com/titles/rspec3/effective-testing-with-rspec-3/
 > I get paid for code that works, not for tests, so my philosophy is to test as little as possible to reach a given level of confidence (I suspect this level of confidence is high compared to industry standards, but that could just be hubris). If I don't typically make a kind of mistake (like setting the wrong variables in a constructor), I don't test for it. I do tend to make sense of test errors, so I'm extra careful when I have logic with complicated conditionals. When coding on a team, I modify my strategy to carefully test code that we, collectively, tend to get wrong.
 - Rack test examples: https://github.com/rack/rack-test#examples
 - sliming tests: https://www.youtube.com/watch?v=PhiXo5CWjYU
+- Martin Fowler, Unit tests: https://martinfowler.com/bliki/UnitTest.html
 
 
 ### Gems
