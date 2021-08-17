@@ -186,3 +186,11 @@ jobs:
         cd chapter_05/03/expense_tracker
         bundle install
         bundle exec rspec -f d spec/unit/app/api_spec.rb
+    
+    - name: Run tests chapter 05 - 04
+      if: ${{ always() }}
+      run: |
+        cd chapter_05/04/expense_tracker
+        bundle install
+        bundle exec rspec -f d spec/unit/app/api_spec.rb
+
