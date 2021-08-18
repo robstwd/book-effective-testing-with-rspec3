@@ -30,3 +30,7 @@ https://pragprog.com/titles/rspec3/effective-testing-with-rspec-3/
 
 ### Tutorials
 - A Beginner’s Guide to HTTP and REST: https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340- 
+
+### Database stuff
+- SQLite: https://sqlite.org/index.html
+- Sequel: https://sequel.jeremyevans.net/
