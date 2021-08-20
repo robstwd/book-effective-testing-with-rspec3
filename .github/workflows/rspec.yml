@@ -290,4 +290,14 @@ jobs:
         bundle install
         bundle exec sequel -m ./db/migrations sqlite://db/development.db --echo
         bundle exec rspec -f d spec/integration/app/ledger_spec.rb
+    
+    - name: Run tests chapter 06 - 09
+      if: ${{ always() }}
+      run: |
+        cd chapter_06/09/expense_tracker
+        bundle install
+        bundle exec sequel -m ./db/migrations sqlite://db/development.db --echo
+        bundle exec rspec -f d spec/integration/app/ledger_spec.rb
+        bundle exec rspec -f d 
+
 
